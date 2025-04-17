@@ -1,0 +1,19 @@
+{
+  "name": "tradestorm-backend",
+  "version": "1.0.0",
+  "description": "Backend for TradeStorm trading application",
+  "main": "main.py",
+  "scripts": {
+    "start": "uvicorn main:app --reload",
+    "test": "pytest"
+  },
+  "dependencies": {
+    "fastapi": "^0.109.2",
+    "uvicorn": "^0.27.1",
+    "python-dotenv": "^1.0.1",
+    "supabase": "^2.3.4",
+    "stripe": "^8.4.0",
+    "alpha_vantage": "^2.3.1",
+    "pytest": "^8.0.1"
+  }
+} 
